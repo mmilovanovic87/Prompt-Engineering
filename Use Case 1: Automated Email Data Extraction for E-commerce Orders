@@ -1,0 +1,61 @@
+Problem Statement: Client needed to parse hundreds of order emails daily into their database. Manual entry was error-prone and slow.
+
+Problem: A client receives order confirmation emails like this:
+
+"Your order #12345 is confirmed. Product: Wireless Earbuds, Price: $59.99, Delivery: June 10th."
+
+Goal: Extract product name, price, order ID, and delivery date into a machine-readable format (XML) for their database.
+
+
+<task>  
+  <instruction>  
+    Extract the order ID, product name, price, and delivery date from this email:  
+    "Your order #12345 is confirmed. Product: Wireless Earbuds, Price: $59.99, Delivery: June 10th."  
+    Format the output as XML.  
+  </instruction>  
+  <output>  
+    <order>  
+      <id></id>  
+      <product></product>  
+      <price></price>  
+      <delivery_date></delivery_date>  
+    </order>  
+  </output>  
+</task>  
+
+
+ChatGPT је рекао:
+<order> <id>12345</id> <product>Wireless Earbuds</product> <price>$59.99</price> <delivery_date>June 10th</delivery_date> </order>
+
+
+
+
+
+Handle Edge Cases (Portfolio Gold!)
+Problem: Emails vary in wording (e.g., "Order #" vs. "ID:"). Improve the prompt to handle variations.
+
+Improved Prompt:
+<task>  
+  <instruction>  
+    Extract order details from this email, even if phrasing varies.  
+    Possible labels: "Order #", "ID:", "Product:", "Item:", "Price:", "Delivery:", "Arrives by".  
+    Example email: "ID: 67890 | Item: Smartwatch | Cost: $199.00 | Arrives by: July 5th."  
+    Format as XML.  
+  </instruction>  
+  <output>  
+    <order>  
+      <id></id>  
+      <product></product>  
+      <price></price>  
+      <delivery_date></delivery_date>  
+    </order>  
+  </output>  
+</task>  
+
+
+ChatGPT је рекао:
+<order> <id>67890</id> <product>Smartwatch</product> <price>$199.00</price> <delivery_date>July 5th</delivery_date> </order>
+
+
+
+
