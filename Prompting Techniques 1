@@ -1,0 +1,85 @@
+Translate "Hello, how are you?" to Spanish.  
+
+"Hello, how are you?" in Spanish is "Hola, ¿cómo estás?".
+
+
+Кажеш:
+Q: Translate "Good morning" to Spanish.  
+A: "Buenos días."  
+Q: Translate "Hello, how are you?" to Spanish.  
+A:  
+
+
+ChatGPT је рекао:
+"Hola, ¿cómo estás?"
+
+
+Кажеш:
+If a pizza is cut into 8 slices and 3 people eat 2 slices each, how many slices remain?  
+
+
+ChatGPT је рекао:
+A pizza has 8 slices.
+3 people eat 2 slices each:
+3 × 2 = 6 slices eaten.
+
+So, the number of slices remaining is:
+8 − 6 = 2 slices.
+
+
+Кажеш:
+If a pizza is cut into 8 slices and 3 people eat 2 slices each, how many slices remain?  
+Let’s think step by step.  
+
+
+ChatGPT је рекао:
+Sure! Let’s break it down step by step:
+
+Start with the total number of slices:
+The pizza is cut into 8 slices.
+
+Determine how many slices each person eats:
+Each of the 3 people eats 2 slices.
+
+Calculate the total number of slices eaten:
+3
+ people
+×
+2
+ slices each
+=
+6
+ slices
+3 people×2 slices each=6 slices
+
+Subtract the slices eaten from the total:
+8
+ total slices
+−
+6
+ eaten slices
+=
+2
+ slices remaining
+8 total slices−6 eaten slices=2 slices remaining
+
+✅ Answer: 2 slices remain.
+
+
+
+Кажеш:
+Example 1:  
+Input: "Wireless headphones, 30-hour battery, noise-canceling."  
+Output: "Enjoy crystal-clear sound with these wireless headphones. Featuring 30-hour battery life and active noise cancellation for immersive audio."  
+
+Example 2:  
+Input: "Stainless steel water bottle, 1L, vacuum-insulated."  
+Output: "Keep drinks hot or cold for hours with this 1L stainless steel water bottle. Vacuum-insulated for maximum temperature retention."  
+
+Now generate for:  
+Input: "Bluetooth speaker, waterproof, 20W output."  
+Output:  
+
+
+ChatGPT је рекао:
+Output: "Take your music anywhere with this Bluetooth speaker. Waterproof design and powerful 20W output deliver bold, clear sound in any environment."
