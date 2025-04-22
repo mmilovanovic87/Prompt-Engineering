@@ -1,0 +1,50 @@
+Кажеш:
+<task>  
+  <instruction>Extract the founder and year founded from: "Apple was founded by Steve Jobs in 1976."</instruction>  
+  <output>  
+    <founder></founder>  
+    <year></year>  
+  </output>  
+</task> 
+
+
+ChatGPT је рекао:
+<founder>Steve Jobs</founder>
+<year>1976</year>
+
+
+
+Кажеш:
+{  
+  "task": "Translate 'Hello' to Spanish and French",  
+  "response_format": {  
+    "spanish": "",  
+    "french": ""  
+  }  
+}  
+
+
+ChatGPT је рекао:
+{ "spanish": "Hola", "french": "Bonjour" }
+
+
+
+
+Кажеш:
+Summarize the Wikipedia page for the Eiffel Tower in 3 bullet points. Use this format:  
+
+## Summary  
+- **Fact 1**: [First fact]  
+- **Fact 2**: [Second fact]  
+- **Fact 3**: [Third fact]  
+
+
+ChatGPT је рекао:
+​Here is a concise summary of the Eiffel Tower based on the information available:​
+
+Summary
+Fact 1: The Eiffel Tower was designed by engineers Maurice Koechlin and Émile Nouguier and constructed by Gustave Eiffel's company for the 1889 Exposition Universelle in Paris.
+
+Fact 2: Standing at 330 meters (1,083 feet), it was the tallest man-made structure in the world until the completion of the Chrysler Building in New York in 1930.
+
+Fact 3: Originally met with criticism, the tower has become a global icon of France and is one of the most visited monuments in the world
